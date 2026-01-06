@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}       
+header{
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+}
+.pic{
+    height:500px;
+    width:350px;
+}
+.text-first{
+    width:350px;
+}
+.text-second{
+    width: 350px;
+}
+.content{
+    margin:10px;
+}
+.container{
+    display:flex;
+}
+.footer-section1{
+    height:100px;
+}
+.footer-section2{
+    height:300px;
+    background-color: black;
+    color:white
+}

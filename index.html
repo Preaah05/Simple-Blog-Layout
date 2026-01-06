@@ -3,76 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Profile</title>
+    <title>Blog Post</title>
+    <link rel="icon" href="Images/logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Fjalla+One&family=Geom:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Profile</h1>
-        <img src="badgePhoto.jpg" alt="My Badge Photo" height="230" width="130" >
-        <h2>I'm Priya Verma</h2>
-        <h3>Connect with me!</h3>
-        <ul>
-            <li><a href="https://github.com/Preaah05">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/priya-verma-954568293/">LinkedIn</a></li>
-            <!-- <li><a href="mailto:pv858004@gmail.com">Email</a></li> -->
-            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=pv858004@gmail.com">Email</a></li>
-        </ul>
+        <section class="header-section1">
+            <div class="deem-text">deem</div>
+            <div class="navbar">
+                <a class="link" href="#">Stories</a>
+                <a class="link" href="#">Shop</a>
+                <a class="link" href="#">About</a>
+                <a class="link" href="#">Symposium</a>
+                <a class="link" href="#">Podcasts</a>
+            </div>
+            <div class="menu-button">
+                <button>menu</button>
+            </div>
+        </section>
+        <section class="header-section2"><h1>Stories</h1></section>
     </header>
     <hr>
     <main>
-        <h2>About Me</h2>
         <section>
-            <h2>Skills</h2>
-            <ul>
-                <li><b>Languages:</b> Java, C/C++, Python, Javascript</li>
-                <li><b>Version Control:</b> Git, GitHub</li>
-                <li><b>Development:</b> React.js, Node.js, MongoDB, Express.js</li>
-                <li><b>CS Fundamentals:</b> Operating System, Database Management Systems, Computer Networks, Object Oriented Programming, System Design, Data Structures and Algorithms</li>
-            </ul>
+            <div class="container">
+                <div class="content">
+                    <img class="pic" src="Images/pic1.jpg" alt="first image">
+                    <div class="text-first">
+                        Beyond Crisis: Finding Beauty and Purpose in the Climate Future
+                    </div>
+                    <div class="text-second">Conversation</div>
+                </div>
+                <div class="content">
+                    <img class="pic" src="Images/pic2.jpg" alt="first image">
+                    <div class="text-first">
+                        Sacralized Space: Theaster Gates on the Practice of Placemaking
+                    </div>
+                    <div class="text-second">Conversation</div>
+                </div>
+                <div class="content">
+                    <img class="pic" src="Images/pic3.jpg" alt="first image">
+                    <div class="text-first">
+                        The Art of Community
+                    </div>
+                    <div class="text-second">Conversation</div>
+                </div>
+                <div class="content">
+                    <img class="pic" src="Images/pic4.jpg" alt="first image">
+                    <div class="text-first">
+                        adrienne maree brown on creating the future
+                    </div>
+                    <div class="text-second">Conversation</div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Experience</h2>
-            <ul>
-                <p>
-                    <li><b>Amazon:</b> <i>Software Development Engineer(Intern)</i></li>
-                    Automated the <b><i>Fresh Store Onboarding Workflow</i></b> to streamline the process of adding new stores to Amazon Fresh, reducing onboarding time by 50%.
-                </p>
-            </ul>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><b>Job Portal Web App:</b> <i>React.js, Node.js, Express.js, Mongoose</i></li>
-                <p>
-                    <ul>
-                        <li>
-                            Job Portal Web App is for recruiters and students. Recruiters can post job openings and students can find those openings and apply.
-                        </li>
-                        <li>Has <b><i>Job Filter</i></b> feature.</li>
-                        <li>Has <b><i>authenticaion and authorization</i></b> feature.</li>
-                    </ul>
-                </p>
-                <br>
-                <li><b>To-Do App:</b> <i>React.js, Node.js, Express.js, Mongoose</i></li>
-                <p>
-                    <ul>
-                        <li>To-Do App has <b><i>CRUD </i></b>functionality.</li>
-                        <li>Has <b><i>authenticaion and authorization</i></b> feature.</li>
-                    </ul>
-                </p>
-            </ul>
-        </section>
-        <section>
-            <h2>Achievements</h2>
-            <ul>
-                <li>Got selected among <b><i>500 FFE Scholars</i></b> out of <b><i>2000+</i></b> scholars from all over India.</li>
-                <li><b><i>Specialist</i></b> on Codeforces with the rating of <b><i>1409.</i></b></li>
-            </ul>
-        </section>
-        <hr>
     </main>
+    <hr>
     <footer>
-        @Priya Verma, 2026.
+        <section class="footer-section1">
+            <div class="archive">Archive</div>
+            <div class="text">Our full digital archive is coming soon</div>
+        </section>
+        <section class="footer-section2">
+            <div class="row1">
+                <div class="first">deem</div>
+                <div class="second">
+                    <ul style="list-style-type:none">
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Symposium</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row2">
+                <ul style="list-style-type:none">
+                    <li><a href="#">example@journal.com</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="row3">Blog Post is a partnership between <span href="#">Openbox</span> and <span href="#">ROOM FOR MAGIC</span> ©2025, All rights reserved.</div>
+        </section>
     </footer>
 </body>
 </html>
